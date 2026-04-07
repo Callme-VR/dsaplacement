@@ -1,6 +1,19 @@
 # 🚀 DSAPlacement
 
-Welcome to **DSAPlacement**! This repository is a curated collection of Data Structures and Algorithms (DSA) problems, meticulously solved using **C++** and **Python**. Whether you're preparing for technical interviews or sharpening your problem-solving skills, this repo serves as a structured guide.
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=white)
+
+Welcome to **DSAPlacement**! This repository is a curated collection of Data Structures and Algorithms (DSA) problems, meticulously solved using **C++** and **Python**.
+
+---
+
+## ✨ Features
+
+- **🏆 Well Categorized**: Problems are grouped into logical sections like Sliding Window, Two Pointers, etc.
+- **⚡ Optimized Solutions**: Each solution focuses on time and space efficiency.
+- **📖 Easy to Read**: Clean code following standard practices.
+- **🛠️ Ready to Run**: Each folder contains executable-ready code files.
 
 ---
 
