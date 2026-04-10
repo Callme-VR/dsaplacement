@@ -15,7 +15,7 @@ public:
             {
                 return midElement;
             }
-            else if (arr[midElement > target])
+            else if (arr[midElement] > target)
             {
                 high = midElement - 1;
             }
@@ -23,7 +23,7 @@ public:
             {
                 low = midElement + 1;
             }
-            return -1;
         }
+        return -1;
     };
 };
