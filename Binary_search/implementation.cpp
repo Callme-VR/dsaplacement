@@ -27,3 +27,20 @@ public:
         return -1;
     };
 };
+
+int main()
+{
+    Solution s;
+    vector<int> arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int target = 5;
+    int result = s.binarySearch(arr, target);
+    if (result != -1)
+    {
+        cout << "Element found at index: " << result << endl;
+    }
+    else
+    {
+        cout << "Element not found in the array." << endl;
+    }
+    return 0;
+}
