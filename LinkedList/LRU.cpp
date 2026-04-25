@@ -51,7 +51,6 @@ public:
 
         // Insert new element at front
         cacheList.push_front({key, value});
-
         // Store iterator in map
         cacheMap[key] = cacheList.begin();
     }
