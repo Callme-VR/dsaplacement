@@ -40,6 +40,7 @@ public:
 class CheckoutService
 {
 public:
+    // this method takes the amount and the discount strategy and returns the final price after applying the discount
     double getFinalPrice(double amount, const DiscountStrategy &strategy)
     {
         return amount - strategy.applyDiscount(amount);
