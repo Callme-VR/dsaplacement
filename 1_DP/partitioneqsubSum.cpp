@@ -19,7 +19,18 @@ bool partition(vector<int>&nums){
   // .partition the array aur total sum
   int target=totalsum/2;
 
-  
+  vector<int>dp(target+1,false);
+
+  dp[0]=true;
+
+  for(int num:nums){
+    for(int sum=target;sum>=num;sum--){
+      dp[sum]=dp[sum]||dp[sum-num];
+    }
+  }
+
+
+  return dp[target];
 }
 
 
@@ -39,14 +50,8 @@ int main() {
     for (int i = 0; i < n; i++) {
         cin >> nums[i];
     }
-
-    int target;
-
-    // Input target sum
-    cin >> target;
-
     // Call subset sum function
-    bool answer = subsetSum(nums, target);
+    bool answer = partition(nums);
 
     // Print result
     if (answer)
